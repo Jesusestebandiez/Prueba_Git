@@ -1,0 +1,139 @@
+ls
+
+git add
+
+git status
+
+git add
+
+git commit
+
+:wq
+
+git log
+
+git status x2
+
+git checkout -- index.html
+
+git status x2
+
+git diff index.html
+
+git add
+
+git status
+
+git commit
+
+git status
+
+:wq
+
+git log
+
+fin video youtube
+
+Apuntes curso Git con certificado:
+
+git config --global user.name ""
+
+git config --global user email ""
+
+git config --list
+
+git config --global core.editor "C:\Users\Jesus\AppData\Local\Programs\Microsoft VS Code Code.exe"
+
+git config --global core.editor "D:\Program Files (x86)\Notepad++ Notepad++.exe"
+
+pwd
+
+cd desktop
+
+cd proyecto 
+
+git init
+
+git add license.txt
+
+git add README.md
+
+git add *.java
+
+git add .
+
+git status -s
+
+git commit -m "init commit"
+
+git status --help
+
+git status --h
+
+git commit
+
+git status
+
+git rm --cached .classpath
+ 
+git touch .gitignore
+
+nano .gitignore
+
+git status
+
+git add .
+
+git commit -m "Added .gitignore and from staging"
+
+git log
+
+git log -2
+
+git log --pretty-oneline
+
+git config --global core.editor "vi"
+
+git commit --amend
+
+git log -1
+
+git commit --amend
+
+git log -1
+
+git config --global core.editor "VS Code"
+
+git add .
+
+git commit --amend --no-edit
+
+git log -1
+
+touch someImportantConfigs.txt
+
+git add .
+
+git status
+
+git checkout -- index.html
+
+git restore --staged Helloworld.java
+
+git restore Helloworld.java
+
+git remote -v
+
+git remote add origin link del repositorio 
+
+git push origin -u master
+
+http://localhost:55760
+
+git clone https://github.com/Jesustecnoloys/Prueba_Git.git
+
+git remote set-url git@github.com:Jesustecnoloys/Prueba_Git.git
+
+git commit -a -m "test SSH connection" 
+
+git push origin master 
